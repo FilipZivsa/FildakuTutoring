@@ -230,7 +230,7 @@ article {
     }
 
     nav ul a {
-        color: white;
+        color: rgb(255, 255, 255);
         padding: 8px 0;
         text-decoration: none;
         text-transform: uppercase;
@@ -257,19 +257,26 @@ article {
   }
 
   footer {
-    box-sizing: border-box;
-    text-align: center;
-    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../images/blue_abstract_background_hero.jpeg");
     color: white;
-    background: #414042;
-    padding: 50px 0 0 0;
-    
-}
+    text-align: center;
+    height: 80px;
+  }
+
 
 footer a {
     color: white;
     text-decoration: none;
 }
+
+.tutoring{
+text-size-adjust: 150px;
+}
+
 
 #dovednosti td {
     width: 33%;
