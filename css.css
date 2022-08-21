@@ -274,7 +274,7 @@ footer a {
 }
 
 .tutoring{
-text-size-adjust: 150px;
+font-size: 20px;
 }
 
 
@@ -413,4 +413,28 @@ text-size-adjust: 150px;
   .underline{
     text-decoration: underline;
     color: rgb(135, 255, 143);
+  }
+
+  .reference-text{
+    font-size: 22px;
+    font-family: monospace;
+    color: rgb(210, 152, 3);
+  }
+
+  .reference-text1{
+    font-size: 22px;
+    font-family: monospace;
+    color: #1068bb;
+  }
+
+  .reference-text2{
+    font-size: 22px;
+    font-family: monospace;
+    color: #13bb0d;
+  }
+
+  .reference-text3{
+    font-size: 22px;
+    font-family: monospace;
+    color: rgb(127, 76, 230);
   }
