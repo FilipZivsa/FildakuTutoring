@@ -264,7 +264,7 @@ article {
     background-image: url("../images/blue_abstract_background_hero.jpeg");
     color: white;
     text-align: center;
-    height: 80px;
+    height: 100px;
   }
 
 
@@ -408,4 +408,9 @@ text-size-adjust: 150px;
     .columns {
       width: 100%;
     }
+  }
+
+  .underline{
+    text-decoration: underline;
+    color: rgb(135, 255, 143);
   }
