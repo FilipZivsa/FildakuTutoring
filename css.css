@@ -144,7 +144,7 @@ article {
         border-radius: 25px;
     }
 .reference_nav-tlacitko{
-    background: #dcba12;
+    background: #c7a70a;
     padding: 1px 8px;
     border-radius: 20px;
 }
@@ -359,7 +359,7 @@ font-size: 20px;
   /* Style the list */
   .price {
     list-style-type: none;
-    border: 10px solid rgb(67, 152, 221);
+    border: 10px solid rgb(12, 93, 159);
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
@@ -373,7 +373,7 @@ font-size: 20px;
   
   /* Pricing header */
   .price .header {
-    background-color: rgb(34, 146, 32);
+    background-color: rgb(18, 136, 36);
     color: white;
     font-size: 25px;
   }
@@ -448,4 +448,7 @@ font-size: 20px;
     src: url("/fonts/Silkscreen-Regular.ttf");
     }
 
-  
+  .reference_pic{
+background-image: url('/images/customer-testimonials-hero.jpg');
+  }
+      
