@@ -352,14 +352,14 @@ font-size: 20px;
   /* Create three columns of equal width */
   .columns {
     float: left;
-    width: 160%;
+    width: 135%;
     padding: 8px;
   }
   
   /* Style the list */
   .price {
     list-style-type: none;
-    border: 10px solid rgb(12, 93, 159);
+    border: 25px solid rgb(12, 93, 159);
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
@@ -452,3 +452,4 @@ font-size: 20px;
 background-image: url('/images/customer-testimonials-hero.jpg');
   }
       
+  
