@@ -417,19 +417,19 @@ font-size: 20px;
 
   .reference-text{
     font-size: 22px;
-    font-family: monospace;
+    font-family:'Arial Narrow Bold';
     color: rgb(210, 152, 3);
   }
 
   .reference-text1{
     font-size: 22px;
-    font-family: monospace;
+    font-family: sans-serif;
     color: #1068bb;
   }
 
   .reference-text2{
     font-size: 22px;
-    font-family: monospace;
+    font-family: cursive;
     color: #13bb0d;
   }
 
