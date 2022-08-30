@@ -447,3 +447,7 @@ font-size: 20px;
     font-family: "Silkscreen-regular";
     src: url("/fonts/Silkscreen-Regular.ttf");
     }
+
+    .phone_font{
+      font-family: sans-serif;
+    }
