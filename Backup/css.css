@@ -1,0 +1,453 @@
+h1{
+ font-style: oblique;
+ text-align: center;
+ text-shadow: 1px 1px 3px  rgb(0, 0, 0);
+ color: rgb(0, 0, 0);
+ font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 3px  rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+    font-size: 30px; 
+}
+
+.obrazek{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.odkaz{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.pic_right{
+    text-align: center;
+   color: aliceblue;
+}
+
+.cislo{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.background{
+    background-color: rgb(0, 0, 0);
+}
+
+.white {
+    color: aliceblue;
+}
+
+.pic_left {
+    text-align: left;
+    color: aliceblue;
+
+}
+
+
+body {
+   background-repeat: no-repeat;
+    background-color: #ffffff;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 960px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+  }
+
+article h2 {
+    font-size: 2em;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid #000000;
+}
+
+article h1, h2, h3, h4, h5, h6 {
+    padding: 10px 0;
+    color: #000000;
+    width: max-content;
+}
+
+article header {
+    height: 100px;
+    background: none;
+}
+
+article section {
+    margin: 0;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #000000;
+}
+
+article {
+    padding: 80px 50px;
+    flex: 1;
+}
+
+#centrovac {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+    .background_pic {
+      background-image: url('/images/pexels-rafael-guajardo-604684.jpg;');
+      background-repeat: no-repeat;
+    }
+   
+    .domu-article {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 100px max-content;
+      }
+
+      .domu-article img {
+        width: 300px;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        grid-column: 2;
+      }
+
+
+      .reference-tlacitko {
+        background: #dcba12;
+        color: rgb(0, 0, 0);
+        font-size: 0.9em;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 12px 25px;
+        border-radius: 25px;
+    }
+.reference_nav-tlacitko{
+    background: #c7a70a;
+    padding: 1px 8px;
+    border-radius: 20px;
+}
+
+    
+.dovednosti-tlacitko{
+        background: #3a89cd;
+        color: rgb(0, 0, 0);
+        font-size: 0.9em;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 12px 25px;
+        border-radius: 25px;
+    }
+
+    .text_kontakt-tlacitko{
+        background: #0eb51c;
+        color: rgb(255, 255, 255);
+        font-size: 0.7em;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 12px 5px;
+        border-radius: 25px;
+    }
+
+    body > header {
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #00386B;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-evenly;
+        z-index: 1;
+    }
+
+    
+    #logo {
+        background: url('images/logo_zivsa.png') no-repeat;
+        background-size: 40px 40px;
+        height: 40px;
+        margin: auto 0 auto 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #logo > * {
+        margin: 0 0 0 50px;
+    }
+
+    #logo h1 {
+        font-weight: normal;
+        font-size: 1.5em;
+        line-height: 1.2em;
+        color: rgb(250, 249, 255);
+    }
+
+    #logo h1 span {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #logo small {
+        text-transform: uppercase;
+        font-size: 0.85em;
+    }
+
+    nav ul {
+        margin: 0;
+        height: 100%;
+        align-items: center;
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 0 25px;
+        margin: 0 5px;
+        font-size: 1em;
+        line-height: 4.3em;
+    }
+
+    nav ul a {
+        color: rgb(255, 255, 255);
+        padding: 8px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    nav ul a:hover, .aktivni a {
+        border-bottom: 2px solid #EF6534;
+    }
+
+.black{
+   color: #000000;
+}
+
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+  filter: brightness(115%) contrast(85%);
+  border: 0;
+}
+
+.kontakt-tlacitko {
+    background: #0eb51c;
+    padding: 2px 2px;
+    border-radius: 20px;;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../images/blue_abstract_background_hero.jpeg");
+    color: white;
+    text-align: center;
+    height: 100px;
+  }
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.tutoring{
+font-size: 20px;
+}
+
+
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+
+#dovednosti {
+    border-collapse: collapse;
+}
+
+#reference img {
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+  }
+
+/* reference  */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+/* reference  /*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 135%;
+    padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 25px solid rgb(12, 93, 159);
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: rgb(18, 136, 36);
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #bb2416;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+  .underline{
+    text-decoration: underline;
+    color: rgb(135, 255, 143);
+  }
+
+  .reference-text{
+    font-size: 22px;
+    font-family:'Arial Narrow Bold';
+    color: rgb(210, 152, 3);
+  }
+
+  .reference-text1{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #1068bb;
+  }
+
+  .reference-text2{
+    font-size: 22px;
+    font-family:'Times New Roman';
+    color: #13bb0d;
+  }
+
+  .reference-text3{
+    font-size: 22px;
+    font-family: monospace;
+    color: rgb(127, 76, 230);
+  }
+
+  .footer-font{
+    font-family: sans-serif;
+  }
+
+  @font-face {
+    font-family: "Silkscreen-regular";
+    src: url("/fonts/Silkscreen-Regular.ttf");
+    }
+
+    .phone_font{
+      font-family: sans-serif;
+    }
